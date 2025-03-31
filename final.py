@@ -18,7 +18,7 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Download NLTK resources only if needed
+# Download NLTK resources
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
