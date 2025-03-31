@@ -33,7 +33,7 @@ Ensure you have Python 3.7 or higher installed.
 
 ### Usage
 - **Prepare your PDFs:** Place your PDF files in a folder named papers in the project directory.
-- **Run the main script:** Execute the script to extract text, generate summaries, and perform topic modeling.
+- **Run the final.py script:** Execute the script to extract text, generate summaries, and perform topic modeling.
 - **Output:** The summaries and topic clustering details will be saved in summaries.txt.
 
 
